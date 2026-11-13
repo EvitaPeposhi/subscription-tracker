@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Subscription</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="add.js"></script>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <header class="page-header">
+            <h1>Add a Subscription</h1>
+            <p>Enter the details of your subscription.</p>
+            <a href="index.html">← Back to Dashboard</a>
+        </header>
+
+        <section class="card section">
+
+            <form id="subscriptionForm">
+
+                <div class="form-grid">
+
+                    <div class="form-group">
+                        <label for="service">Service</label>
+                        <input type="text" id="service"
+                            placeholder="e.g. Netflix" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="provider">Provider</label>
+                        <input type="text" id="provider"
+                            placeholder="e.g. Netflix Inc." required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subscriber">Subscriber</label>
+                        <input type="text" id="subscriber"
+                            placeholder="e.g. John" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="renewalDate">Renewal Date</label>
+                        <input type="date" id="renewalDate" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="category">Category</label>
+                        <select id="category" required>
+                            <option value="">Select category</option>
+                            <option value="Entertainment">Entertainment</option>
+                            <option value="Music">Music</option>
+                            <option value="Software">Software</option>
+                            <option value="Education">Education</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <button type="submit" class="button button-primary">
+                    Save Subscription
+                </button>
+
+            </form>
+
+            <p id="message"></p>
+
+        </section>
+
+    </main>
+
+</body>
+</html>

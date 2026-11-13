@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Subscriptions</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="subscriptions.js"></script>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <header class="page-header">
+            <h1>Your Subscriptions</h1>
+            <p>View and manage all saved subscriptions.</p>
+
+            <a href="index.html">← Back to Dashboard</a>
+            <a href="add.html">Add Another Subscription</a>
+        </header>
+
+        <section class="card section">
+
+            <div class="table-container">
+
+                <table class="table">
+
+                    <thead>
+                        <tr>
+                            <th>Service</th>
+                            <th>Provider</th>
+                            <th>Subscriber</th>
+                            <th>Renewal Date</th>
+                            <th>Category</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="subscriptionTable">
+                        <!-- JavaScript will insert subscriptions here -->
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
