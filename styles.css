@@ -1,0 +1,13 @@
+
+/* Import our reusable CSS library */
+@import url("./css-library/library.css");
+
+/* General website styling */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6fa;
+    color: #333;
+}
