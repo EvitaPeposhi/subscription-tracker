@@ -2,7 +2,7 @@
 import {
     loadSubscriptions,
     saveSubscriptions
-} from "./js-library/library.js";
+} from "https://cdn.jsdelivr.net/gh/EvitaPeposhi/subscription-tracker@main/js-library/library.js";
 
 // Get the subscription ID from the URL
 const params = new URLSearchParams(window.location.search);

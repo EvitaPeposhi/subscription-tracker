@@ -1,7 +1,7 @@
 import {
     getStatus,
     loadSubscriptions
-} from "./js-library/library.js";
+} from "https://cdn.jsdelivr.net/gh/EvitaPeposhi/subscription-tracker@main/js-library/library.js";
 
 // Load saved subscriptions
 const subscriptions = loadSubscriptions();

@@ -4,7 +4,7 @@ import {
     formatDate,
     saveSubscriptions,
     loadSubscriptions
-} from "./js-library/library.js";
+} from "https://cdn.jsdelivr.net/gh/EvitaPeposhi/subscription-tracker@main/js-library/library.js";
 
 // Get the table
 const table = document.getElementById("subscriptionTable");

@@ -3,7 +3,7 @@ import {
     saveSubscriptions,
     loadSubscriptions,
     generateId
-} from "./js-library/library.js";
+} from "https://cdn.jsdelivr.net/gh/EvitaPeposhi/subscription-tracker@main/js-library/library.js";
 
 // Get the form
 const form = document.getElementById("subscriptionForm");
